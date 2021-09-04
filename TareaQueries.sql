@@ -1,4 +1,4 @@
---Tarea: Ejercicios de Queries Ainé Fernández 188680
+--Tarea: Ejercicios de Queries Ainé Fernández 
 --Visualización de tablas 
 select * from suppliers s
 select * from orders o 
