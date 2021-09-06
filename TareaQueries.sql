@@ -31,7 +31,7 @@ where product_name like '%Queso%';--condición: que contiene la palabra queso
 --Otro select con category=4(dairy products)
 select product_name--dato que queremos 
 from products p--tabla de donde se seleccionan los datos  
-where category_id =4;--condición: productos que estén catalagados en la categoría 4 
+where category_id =4;--condición: productos que estén catalogados en la categoría 4 
 --Nos da 10 productos, todos son quesos 
 
 --5.¿Qué órdenes van a Bélgica o Francia?
