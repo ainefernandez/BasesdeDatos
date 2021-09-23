@@ -1,4 +1,4 @@
-#Tarea2 Queries: Primer intento
+--Tarea2 Queries: Primer intento
 
 --Obtener un reporte de edades de los empleados para checar su elegibilidad para seguro de gastos médicos menores.
 select first_name, last_name, age(now(),birth_date)
