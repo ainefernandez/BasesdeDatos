@@ -94,7 +94,7 @@ or email like '-%'
 or email like '+%';
 ``
 
-**Explicación del LIKE: **
+**Explicación del LIKE:**
 1. ``email not like '%@%'`` 
 En todos los emails una @ tiene que separar el recipient name del domain, si no tiene una @ es un email inválido 
 2. ``or email not like '%.%'``
