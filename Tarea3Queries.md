@@ -78,17 +78,17 @@ values
 ``
 select nombre, email 
 from avenger a 
-where email not like '%@%' --Una @ tiene que separar el recipient name del domain 
-or email not like '%.%'--un punto separando el domain del top-level domain (puede haber más puntos)   
-or email like '% %'-- no debe tener espacios 
-or email like '%.'--no debe terminar en caracteres especiales
+where email not like '%@%' 
+or email not like '%.%'   
+or email like '% %'
+or email like '%.'
 or email like '%"_"'
 or email like '%-'
 or email like '%^'
 or email like '%+'
-or email like '%-^_^%'--no debe haber 2 o más caracteres especiales consecutivos
+or email like '%-^_^%'
 or email like '%..%'
-or email like '.%' --no debe empezar con caracteres especiales
+or email like '.%' 
 or email like '"_"%'
 or email like '-%'
 or email like '+%';
